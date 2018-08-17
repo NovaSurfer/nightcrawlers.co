@@ -1,0 +1,51 @@
+baseurl = "/"
+title = "nightcrawlers"
+copyright = "nightcrawlers (c) 2018."
+languageCode = "en-US"
+canonifyurls = true
+paginate = 3
+theme = "hugo-dusk"
+
+googleAnalytics = ""
+disqusShortname = "nightcrawlers"
+
+SectionPagesMenu = "main"
+
+enableEmoji = true
+
+# use Chroma for syntax highlight
+pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
+# enable syntax highlight for code blocks
+pygmentsCodeFences = true
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
+
+[author]
+  name = "Maksim Ruts"
+
+[params.meta]
+  keywords = "blog, programming, gamedev, pixel-art"
+  description = "Personal blog."
+
+[params]
+  email = "tribar.ge@gmail.com"
+  github = "NovaSurfer"
+  twitter = "n1ght_crawlers"
+
+[params.colors]
+  # hugo-dusk colors
+  background = "#101010" # background color for the site
+  main = "#FFD166"
+  text = "#dbdbdb"
+  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
+  copyright = "#404040" # copyright text color
