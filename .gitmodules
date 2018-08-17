@@ -1,0 +1,3 @@
+[submodule "themes/hugo-dusk"]
+	path = themes/hugo-dusk
+	url = https://github.com/NovaSurfer/hugo-dusk.git
