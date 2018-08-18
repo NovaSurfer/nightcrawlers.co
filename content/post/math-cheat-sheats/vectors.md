@@ -2,6 +2,7 @@
 title: "Vectors"
 date: 2018-08-17T22:26:54+03:00
 draft: false
+markup: mmark
 tags:
   - math-cheat-sheets
 ---
