@@ -22,7 +22,7 @@ now; it has to do with matrix transformations, which will be covered in Chapter 
 Transformations.
 
 #### 1.2 Dot product
-![](https://i.imgur.com/SMlmHD7.png)
+$$\vec{A} \cdot \vec{B} = \sum_{i=0}^n{A_i}{B_i}$$
 The resulting scalar represents the directional relation of the vectors. That is, **A** * **B** represents how much **A** is pointing in the direction of **B**
 Using the dot product we can tell if two vectors are pointing in the same direction or not following these rules:
 + If the dot product if **positive**, the vectors are pointing in the **same direction**
@@ -31,11 +31,9 @@ Using the dot product we can tell if two vectors are pointing in the same direct
 
 
 #### 1.2.1 Geometric definition
-![](https://i.imgur.com/IIPdTY4.png)
-
+$$\vec{A} \cdot \vec{B} = \Vert A \Vert \Vert B \Vert \cos\theta$$
 #### 1.3 Magnitude
 The magnitude or length of a vector is written as the letter of the vector surrounded by two bars, **||V||**. The magnitude of a vector is the square root of the dot product of the vector with itself.
-![](https://i.imgur.com/UvlRWtq.png)
-
+$$\Vert V \Vert = \sqrt{\vec{A} \cdot \vec{A}}$$
 
 
